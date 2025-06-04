@@ -59,11 +59,8 @@ body {
     padding: 10px;
 }
 
-#title {
-    font-family: Arial, sans-serif;
-    color: #e8eaed;
-    height: 30%;
-    font-size: 90px;
-    text-align: center;
-
+#logo {
+    display: block;
+    margin: auto;
+    margin-top: 100px;
 }
