@@ -22,7 +22,6 @@ body {
 #search {
     display: flex;
     margin: 10px;
-    height: 90%;
     align-items: center;
     justify-content: center;
 }
@@ -58,4 +57,13 @@ body {
     color: #e8eaed;
     margin: 10px;
     padding: 10px;
+}
+
+#title {
+    font-family: Arial, sans-serif;
+    color: #e8eaed;
+    height: 30%;
+    font-size: 90px;
+    text-align: center;
+
 }
