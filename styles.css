@@ -48,7 +48,8 @@ body {
     margin-top: 25px;
 }
 
-#buttons input[type=submit] {
+#buttons input[type=submit],
+div button {
     background-color: #303134;
     border-radius: 5px;
     border: solid 1px transparent;
