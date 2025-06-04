@@ -1,0 +1,45 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #202124;
+}
+
+#nav {
+    font-family: sans-serif;
+    margin: 5px;
+    padding: 5px;
+    text-align: right;
+}
+
+#nav a {
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+    margin: 15px
+}
+
+#search {
+    display: flex;
+    margin: 10px;
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+#search input[type=text] {
+    font-family: Arial, sans-serif;
+    min-height: 40px;
+    font-size: 14px;
+    padding-left: 15px;
+    background-color: #505454;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 24px;
+    outline: none;
+    width: 550px;
+}
+
+#search input[type=submit] {
+    background-color: aquamarine;
+}
