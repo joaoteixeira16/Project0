@@ -115,6 +115,9 @@ h3 {
     background-color: #202124;
     border: 1px solid #5c5f5e;
     min-height: 20px;
+    color: #bdc1c6;
+    font-size: 12px;
+    padding-left: 10px;
 }
 
 #search_advanced input[type=text]:nth-last-of-type(n+1) {
