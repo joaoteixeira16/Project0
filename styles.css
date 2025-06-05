@@ -1,12 +1,12 @@
 html,
 body {
+    font-family: Arial, sans-serif;
     height: 100%;
     margin: 0;
     background-color: #202124;
 }
 
 #nav {
-    font-family: sans-serif;
     margin: 5px;
     padding: 5px;
     text-align: right;
@@ -27,7 +27,6 @@ body {
 }
 
 #search input[type=text] {
-    font-family: Arial, sans-serif;
     min-height: 40px;
     font-size: 14px;
     padding-left: 15px;
@@ -64,4 +63,112 @@ div button {
     display: block;
     margin: auto;
     margin-top: 100px;
+}
+
+#logo_small {
+    float: left;
+    width: 6%;
+}
+
+h3 {
+    color: #f28b82;
+    font-size: 15px;
+    padding: 40px 40px;
+    padding-left: 50px;
+    border-bottom: 1px solid black;
+}
+
+#search_advanced {
+    width: 800px;
+    font-size: 12px;
+    color: #969ba1;
+    padding-left: 50px;
+
+}
+
+#form {
+    width: 650px;
+    height: 300px;
+    float: left;
+    border-bottom: 1px solid black;
+}
+
+#form_advanced label {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+#numbers {
+    width: 483px;
+    float: right;
+    text-align: center;
+    font-size: 12px;
+    color: black;
+}
+
+#search_advanced p {
+    font-size: 14px;
+    color: #e8eaed;
+}
+
+#search_advanced input[type=text] {
+    background-color: #202124;
+    border: 1px solid #5c5f5e;
+    min-height: 20px;
+}
+
+#search_advanced input[type=text]:nth-last-of-type(n+1) {
+    float: right;
+
+}
+
+#todo {
+    width: 500px;
+    height: 285px;
+    margin-left: 650px;
+    padding-left: 10px;
+    padding-top: 15px;
+    border-bottom: 1px solid black;
+}
+
+#todo h4 {
+    margin: auto;
+    color: white;
+    margin-bottom: 35px;
+}
+
+#todo span {
+    display: inline-block;
+    font-size: 10px;
+    color: #969ba1;
+    margin-bottom: 15px;
+}
+
+#todo p {
+    display: inline-block;
+    font-size: 10px;
+    font-family: monospace;
+    color: #dadce0;
+    margin: auto;
+}
+
+#todo span:nth-last-of-type(n+3) {
+    margin-bottom: 29px;
+}
+
+#button_advanced {
+    background-color: aliceblue;
+    width: 650px;
+    margin-top: 10px;
+}
+
+#button_advanced input {
+    background-color: #8ab4f8;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 2px;
+    border: none;
+    padding: 8px;
+    color: #fff;
+    float: right;
 }

@@ -8,17 +8,50 @@
 
 <body>
     <div id="nav">
+        <img src="img/logo.png" alt="Google Logo" id="logo_small">
         <a href="index.html">Google Search</a>
         <a href="image.html">Image Search</a>
     </div>
-    <div id="search">
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <div id="buttons">
-                <input type="submit" name="search" value="Google Search">
-                <input type="submit" name="lucky" value="I'm feeling lucky">
-            </div>
-        </form>
+    <h3>Advanced Search</h3>
+    <div id="search_advanced">
+        <div id="form">
+            <form id="form_advanced" action="https://www.google.com/search">
+                <p>Find pages with...</p><br>
+
+                <label for="q">all these words:</label>
+                <input type="text" name="q" size="80"><br>
+                <label for="q">this exact word or phrase:</label>
+                <input type="text" name="q" size="80"><br>
+                <label for="q">any of these words:</label>
+                <input type="text" name="q" size="80"><br>
+                <label for="q">none of these words:</label>
+                <input type="text" name="q" size="80"><br>
+                <label for="q">numbers ranging from:</label>
+
+                <div id="numbers">
+                    <input type="text" name="q" style="float: left;" size="33">to<input type="text" name="q"
+                        size="33"><br>
+                </div>
+            </form>
+
+        </div>
+
+        <div id="todo">
+            <h4>To do this in the search box.</h4>
+            <span>Type the important words: <p>tri-colour rat terrier</p></span><br>
+            <span>Put exact words in quotes: <p>"rat terrier"</p></span><br>
+            <span>Type <p>OR</p> between all the words you want: <p>miniature OR standard</p></span><br>
+            <span>Put a minus sign just before words that you don't want:<br>
+                <p>-rodent, -"Jack Russell"</p>
+            </span><br>
+            <span>Put two full stops between the numbers and add a unit of measurement: <br>
+                <p>10..35 kg, £300..£500, 2010..2011</p>
+            </span>
+        </div>
+
+        <div id="button_advanced">
+            <input type="submit" form="form_advanced" name="search" value="Advanced Search">
+        </div>
     </div>
 </body>
 
