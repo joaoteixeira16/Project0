@@ -172,3 +172,20 @@ h3 {
     color: #fff;
     float: right;
 }
+
+#input_div {
+    position: relative;
+    display: inline-block;
+}
+
+#input_div input[type=reset] {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    background-color: transparent;
+    color: #e8eaed;
+    border: none;
+    font-size: 24px;
+    margin-right: 15px;
+    margin-top: 4px;
+}
